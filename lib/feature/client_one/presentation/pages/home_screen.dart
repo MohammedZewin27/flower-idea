@@ -19,7 +19,14 @@ class HomeScreen extends StatelessWidget {
                 height: 150,
               ),
               Text(
-                'حبي واعتزاز الي زوجتي الحبية وروح قلبي وحياتي كلها',
+                'حبي  واعتزاز الي زوجتي الحبية وروح قلبي وحياتي كلها',
+                textDirection: TextDirection.rtl,
+                textAlign: TextAlign.center,
+                style:
+                    getSemiBoldStyle(color: ColorManager.white, fontSize: 45),
+              ),
+              Text(
+                'حبي  واعتزاز الي زوجتي الحبية وروح قلبي وحياتي كلها',
                 textDirection: TextDirection.rtl,
                 textAlign: TextAlign.center,
                 style:
