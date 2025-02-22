@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "841177859782",
+    "project_id": "idea-cbca1",
+    "storage_bucket": "idea-cbca1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:841177859782:android:3f42f6ddd5000eea9db9c7",
+        "android_client_info": {
+          "package_name": "com.example.idea"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeMlCxHKW99_WDzs2SGwd_bolM7dCqfqI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
