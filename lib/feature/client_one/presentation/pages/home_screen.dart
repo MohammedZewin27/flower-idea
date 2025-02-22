@@ -2,20 +2,20 @@ import 'package:flutter/material.dart';
 import 'package:idea/core/resources/style_manager.dart';
 
 import '../../../../core/resources/color_manager.dart';
-import '../../../../core/widgets/custom_background.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return CustomBackground(
-        assetsImagePng: 'images/image_1.jpg',
-        body: SingleChildScrollView(
-          child: Column(
+    return SingleChildScrollView(
+      child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              SizedBox(
+          Image.asset(
+            'images/image_1.jpg',
+          ),
+          SizedBox(
                 height: 150,
               ),
               Text(
@@ -45,6 +45,6 @@ class HomeScreen extends StatelessWidget {
                   child: Image.asset("assets/images/flower1.png"))
             ],
           ),
-        ));
+    );
   }
 }
