@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:idea/core/resources/style_manager.dart';
-import 'package:idea/core/widgets/custom_background_screen.dart';
 
 import '../../../../core/resources/color_manager.dart';
 import '../../../../core/widgets/custom_background.dart';
