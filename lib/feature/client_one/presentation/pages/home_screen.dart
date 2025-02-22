@@ -15,6 +15,7 @@ class HomeScreen extends StatelessWidget {
           Image.asset(
             'images/image_1.jpg',
           ),
+          Image.asset("assets/images/flower1.png"),
           SizedBox(
                 height: 150,
               ),
