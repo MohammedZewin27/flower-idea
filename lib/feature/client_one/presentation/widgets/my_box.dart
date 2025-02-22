@@ -9,7 +9,7 @@ class MyBox extends StatelessWidget {
       height: double.infinity,
       width: double.infinity,
       color: Colors.amber,
-      child: Image.asset('assets/images/FAMILY.jpg'),
+      child: Image.asset('assets/images/tseses.jpg'),
     );
   }
 }
